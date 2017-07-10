@@ -1,4 +1,9 @@
 <!--The whole content below can be removed with the new code.-->
 <div style="text-align:center" class="title">
-  <h1>{{title}}</h1>
+  <h1>sara{{title}}</h1>
 </div>
+
+<ul class="ufs">
+    <li *ngFor="let uf of ufs">
+    <span class="badge">{{uf.id}}</span>{{uf.nome}}
+</ul>
