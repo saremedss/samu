@@ -1,5 +1,5 @@
 <!--The whole content below can be removed with the new code.-->
-<div style="text-align:center" class="title">
+<!--<div style="text-align:center" class="title">
   <h1>sara{{title}}</h1>
 </div>
 
@@ -7,3 +7,23 @@
     <li *ngFor="let uf of ufs">
     <span class="badge">{{uf.id}}</span>{{uf.nome}}
 </ul>
+-->
+<div style="text-align:center" class="title">
+  <h1 style="text-align:center">{{minha_uf.nome}}</h1>
+</div>
+
+<div style="text-align:center;"
+  class="prova"><p><b>ID:
+</b> {{minha_uf.id}}</p>
+<p><b>Área:</b> {{minha_uf.area}}</p>
+<p><b>Média municípios atendidos:
+</b> {{media}}</p>
+
+<ul>
+  <li *ngFor=
+  "let mun of municipios_atendidos">
+    <b>Ano:</b> {{mun.ano}} -
+    <b>Quantidade:</b> {{mun.valor}}
+  </li>
+</ul>
+</div>
