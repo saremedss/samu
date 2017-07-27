@@ -1,0 +1,22 @@
+a {
+    color: blue;
+    text-align: center;
+    font-family: verdana;
+    font-size: 20px;
+
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+body {
+    background-color: lightblue;
+}
